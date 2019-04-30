@@ -1,0 +1,27 @@
+Version: 1.0.2
+    	Added:
+    		- Compatibility with WP 5.0.2
+            - Contact Form 7
+            - Alert to Demo data installation
+            - Privacy Policy page
+
+        Fixed:
+            - Compatibility with Gutenberg and other PageBuilders
+            - Update plugins to their latest versions
+            - Improve theme styles
+            - Role manager problem in WPBakery Plugin
+            - Checkbox and radio buttons style
+            - Unserialize string
+            - Update TRX Addons Plugin
+
+        Changed:
+            - Update default contact forms to make them GDPR-compliant
+    		- Update demo data
+
+Version: 1.0.1
+	Plugins updated
+    Documentation updated
+    Child theme updated
+
+Version 1.0
+	Release

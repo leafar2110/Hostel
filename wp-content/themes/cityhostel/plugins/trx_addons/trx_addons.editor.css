@@ -1,0 +1,94 @@
+/* Tooltips */
+.trx_addons_tooltip {
+	border-bottom-style: solid;
+    font-weight: 700;
+}
+.trx_addons_tooltip:before {
+	font-size:1em;
+	line-height:1.3em;
+	padding: 0.6em 1em;
+    font-weight: 400;
+	-webkit-transform:translateX(-50%);
+	   -moz-transform:translateX(-50%);
+	    -ms-transform:translateX(-50%);
+	        transform:translateX(-50%);
+	-webkit-border-radius: 0 !important;
+	   -moz-border-radius: 0 !important;
+			border-radius: 0 !important;
+}
+.trx_addons_tooltip:after {
+	margin-bottom:-8px;
+	-webkit-transform:none;
+	   -moz-transform:none;
+	    -ms-transform:none;
+	        transform:none;
+}
+.trx_addons_accent_hovered,
+.trx_addons_accent_bg {
+    padding: 0.2em 0.3em 0.3em;
+    line-height: 1;
+}
+
+/* Dropcaps */
+.trx_addons_dropcap {
+	padding: 0;
+    margin: 0.18em 0.58em 0 0;
+	width: 1.6em;
+	height: 1.6em;
+	line-height: 1.55em;
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+			border-radius: 50%;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.trx_addons_dropcap.trx_addons_dropcap_style_4 {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.trx_addons_dropcap.trx_addons_dropcap_style_3 {
+    font-size: 5.714rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: auto;
+    height: auto;
+    line-height: 1;
+    margin: -5px 0.22em -4px 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+/* Tiny text */
+.trx_addons_tiny_text {
+	letter-spacing:2px;
+}
+
+/* Lists */
+.trx_addons_list_parameters > li > strong,
+.trx_addons_list_parameters > li > em {
+	color:inherit;
+}
+.trx_addons_list_parameters > li > em {
+	font-family:inherit;
+}
+ul[class*="trx_addons_list"] > li {
+    margin-bottom: 0.58em;
+}
+ul[class*="trx_addons_list"][class*="_circled"] {
+    padding-left: 2.1em;
+}
+ul[class*="trx_addons_list"][class*="_circled"] > li:before {
+    left: -2.9em;
+}
+ul[class*="trx_addons_list_custom"] > li:before {
+    content: '\e94a';
+    font-family: Fontello, sans-serif;
+    font-size: 15px;
+}
+ul[class*="trx_addons_list_dot"] > li:before {
+    font-size: 25px;
+    left: -0.65em;
+    top: 1px;
+}

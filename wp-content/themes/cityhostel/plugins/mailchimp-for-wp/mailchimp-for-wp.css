@@ -1,0 +1,174 @@
+/* MailChimp for WP styles
+----------------------------------------------------------------- */
+.mc4wp-form {
+	position:relative;
+	padding-right: 0;
+}
+.mc4wp-form .mc4wp-form-fields input[type="email"] {
+    padding: 1em 2.4em;
+	width: 100%;
+	vertical-align:top;
+    max-width: 310px;
+    height: 54px;
+}
+.mc4wp-form-fields {
+    text-align: center;
+}
+.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+	vertical-align:top;
+    padding: 1.6em 4.6em 1.45em;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+    margin-left: -0.2rem;
+    height: 54px;
+}
+.mc4wp-form .mc4wp-form-fields input[type="email"],
+.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.mc4wp-form .mc4wp-alert {
+	margin: 2em 0;
+	padding: 0;
+    text-align: center;
+}
+.vc_row-has-fill .mc4wp-form .mc4wp-alert {
+    color: #ffffff;
+}
+
+.wpcf7 .wpcf7-form-control-wrap input:not(input[type="radio"]),
+.wpcf7 .wpcf7-form-control-wrap input:not(input[type="checkbox"]),
+.wpcf7 .select_container select,
+.wpcf7 .select_container {
+    height: 5.1rem;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
+.wpcf7 [class*="wpcf7-form-control"],
+.wpcf7 [class*="wpcf7-form-control"] *:not(input[type="radio"]),
+.wpcf7 [class*="wpcf7-form-control"] *:not(input[type="checkbox"]){
+    width: 100%;
+}
+.wpcf7 .columns_wrap {
+    margin-right: -12px;
+}
+.wpcf7 .columns_wrap > [class*="column-"] {
+    float: left;
+    clear: right;
+    padding-right: 12px;
+}
+.wpcf7-form-control-wrap.date {
+    position: relative;
+    display: block;
+}
+.wpcf7-form-control-wrap.date input {
+    padding-right: 3em;
+    width: 100%;
+}
+.wpcf7 input:not(input[type="radio"]),
+.wpcf7 input:not(input[type="checkbox"]),
+.wpcf7 .select_container select,
+.wpcf7 .select_container {
+    height: 5.1rem;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
+.wpcf7 input,
+.wpcf7 .select_container select {
+    padding-left: 2.3em;
+}
+.wpcf7-form-control-wrap.date:after {
+    top: 1.9em;
+    margin-top: 0;
+}
+.wpcf7-not-valid-tip {
+    margin-top: 0.78rem;
+}
+/* Radio buttons and checkboxes */
+.wpcf7-form input[type="radio"],
+.wpcf7-form input[type="checkbox"] {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    opacity: 0;
+}
+
+.wpcf7-form input[type="radio"] + .wpcf7-list-item-label,
+.wpcf7-form input[type="checkbox"] + .wpcf7-list-item-label{
+    margin-left: -14px;
+}
+
+.wpcf7-form input[type="radio"] + span,
+.wpcf7-form input[type="checkbox"] + span {
+    position:relative;
+    padding-left:1.4em;
+    line-height:1.5em;
+}
+.wpcf7-form input[type="radio"] + span:before,
+.wpcf7-form input[type="checkbox"] + span:before {
+    content:' ';
+    font-family:fontello;
+    display:block;
+    text-align:center;
+    border: 1px solid #eee;
+    position:absolute;
+    left:0;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    width:0.6em;
+    height:0.6em;
+    line-height:0.53em;
+}
+.wpcf7-form input[type="radio"] + span:before {
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+.wpcf7-form input[type="checkbox"]:checked + span:before {
+    content:'\e8ab';
+}
+.wpcf7-form input[type="radio"]:checked + span:before {
+    content:'\e83c';
+}
+
+.wpcf7-exclusive-checkbox input[type="checkbox"]{
+    position: absolute;
+    right: 0;
+}
+.wpcf7-exclusive-checkbox input[type="checkbox"] + label{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    padding-left: 0;
+    margin-left: .7em;
+}
+.wpcf7-form .wpcf7-radio label{
+    position: relative;
+}
+.wpcf7-form .wpcf7-radio label input[type="radio"]{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.wpcf7-form .wpcf7-radio label input[type="radio"] + label:before{
+    left: auto;
+    right: 0;
+}
+.wpcf7-form .wpcf7-radio label .wpcf7-list-item-label{
+    float: left;
+}

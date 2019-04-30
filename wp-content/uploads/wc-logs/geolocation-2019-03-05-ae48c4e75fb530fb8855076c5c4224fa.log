@@ -1,0 +1,4 @@
+2019-03-05T13:28:10+00:00 NOTICE Unable to download GeoIP Database: stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+stream_socket_client(): unable to connect to tcp://geolite.maxmind.com:80 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution)
+2019-03-05T13:28:20+00:00 NOTICE Unable to download GeoIP Database: stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+stream_socket_client(): unable to connect to tcp://geolite.maxmind.com:80 (php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution)
